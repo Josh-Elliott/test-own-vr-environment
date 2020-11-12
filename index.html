@@ -13,14 +13,16 @@
       <a-scene>
       
         <a-assets>
-            
+          
+          <img id="pyramid" src="https://Josh-Elliott.github.io/aframe-environment/pyramid.png" crossorigin="anonymous">
+          <img id="floor" src="https://Josh-Elliott.github.io/aframe-environment/floor.png" crossorigin="anonymous">
         
         </a-assets>
         
        
-       <a-sky id="background" src="#" theta-length="90" radius="30" position="0 -25.55254 0" material="" geometry="" scale="-2 2 2"></a-sky>
+       <a-sky id="background" src="#pyramid" theta-length="90" radius="30" position="0 -25.55254 0" material="" geometry="" scale="-2 2 2"></a-sky>
         
-       <a-entity id="ground" geometry="primitive: cylinder" scale="50 1 50" material="color: #cabfbf; src: #floorLeaves"></a-entity>
+       <a-entity id="ground" geometry="primitive: cylinder" scale="50 1 50" material="color: #cabfbf; src: #floor"></a-entity>
         
         
         
